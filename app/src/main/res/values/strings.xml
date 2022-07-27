@@ -9,7 +9,7 @@
     <string name="imagen_logo_grupo" translatable="false">Imagen logo grupo</string>
     <string name="grupo_5" translatable="false">Grupo Cinco</string>
     <string name="registro" translatable="false">Registro</string>
-    <string name="no_identidad" translatable="false">No. identidad:</string>
+    <string name="telefono" translatable="false">Telefono:</string>
     <string name="apellido" translatable="false">Apellido:</string>
     <string name="nombre" translatable="false">Nombre:</string>
     <string name="registrarse" translatable="false">Registrarse</string>

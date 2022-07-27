@@ -18,6 +18,13 @@ public class ActivityDashboardCliente extends AppCompatActivity {
         setContentView(R.layout.activity_dashboard_cliente);
         Init();
         salir.setOnClickListener(this::onClickSalir);
+        perfil.setOnClickListener(this::onClickPerfil);
+    }
+
+    private void onClickPerfil(View view) {
+        Intent Perfil = new Intent(getApplicationContext(), ActivityPerfil.class);
+        startActivity(Perfil);
+        finish();
     }
 
     private void onClickSalir(View view) {
@@ -28,6 +35,8 @@ public class ActivityDashboardCliente extends AppCompatActivity {
 
     private void Init() {
         salir = findViewById(R.id.imgvSalir);
+
+        perfil = findViewById(R.id.btnPerfil);
 
     }
 
